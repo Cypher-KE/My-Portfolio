@@ -78,16 +78,15 @@
 
   /* font-size */
   --fs-1: 24px;
-  --fs-2: 19px;
-  --fs-3: 18px;
-  --fs-4: 17px;
-  --fs-5: 16px;
-  --fs-6: 15px;
-  --fs-7: 14px;
+  --fs-2: 20px;
+  --fs-3: 19px;
+  --fs-4: 18px;
+  --fs-5: 17px;
+  --fs-6: 16px;
+  --fs-7: 15px;
   --fs-8: 12px;
 
   /* font-weight */
-  --fw-300: 300;
   --fw-400: 400;
   --fw-500: 500;
   --fw-600: 600;
@@ -348,7 +347,7 @@ main {
   color: var(--white-1);
   background: var(--onyx);
   font-size: var(--fs-8);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-400);
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
@@ -500,7 +499,7 @@ main {
 .about-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-500);
   line-height: 1.6;
 }
 
@@ -598,7 +597,7 @@ main {
 .testimonials-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-400);
   line-height: 1.6;
   display: -webkit-box;
   line-clamp: 4;
@@ -710,14 +709,14 @@ main {
 .modal-content time {
   font-size: var(--fs-6);
   color: var(--light-gray-70);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-400);
   margin-bottom: 10px;
 }
 
 .modal-content p {
   color: var(--light-gray);
   font-size: var(--fs-6);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-400);
   line-height: 1.6;
 }
 
@@ -825,7 +824,7 @@ main {
 
 .timeline-text {
   color: var(--light-gray);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-500);
   line-height: 1.6;
 }
 
@@ -873,7 +872,7 @@ main {
 .title-wrapper data {
   color: var(--light-gray);
   font-size: var(--fs-7);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-400);
   margin-left: auto;
 }
 
@@ -916,7 +915,7 @@ main {
   border: 1px solid var(--jet);
   border-radius: 14px;
   font-size: var(--fs-6);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-400);
 }
 
 .filter-select.active .select-icon { transform: rotate(0.5turn); }
@@ -946,7 +945,7 @@ main {
   background: var(--eerie-black-2);
   color: var(--light-gray);
   font-size: var(--fs-6);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-400);
   text-transform: capitalize;
   width: 100%;
   padding: 8px 10px;
@@ -1046,7 +1045,7 @@ main {
 .project-category {
   color: var(--light-gray-70);
   font-size: var(--fs-6);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-400);
 }
 
 
@@ -1112,7 +1111,7 @@ main {
 .blog-meta :is(.blog-category, time) {
   color: var(--light-gray-70);
   font-size: var(--fs-6);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-400);
 }
 
 .blog-meta .dot {
@@ -1133,7 +1132,7 @@ main {
 .blog-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
-  font-weight: var(--fw-300);
+  font-weight: var(--fw-400);
   line-height: 1.6;
 }
 
@@ -1884,7 +1883,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .contact-info :is(.contact-link, time, address) {
     --fs-7: 14px;
-    font-weight: var(--fw-300);
+    font-weight: var(--fw-400);
   }
 
   .separator:last-of-type {
