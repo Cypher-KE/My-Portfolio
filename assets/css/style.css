@@ -20,9 +20,9 @@
   --radius-md: 18px;
   --radius-lg: 26px;
   --font-body:
-    "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Quicksand", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
-  --font-heading: "Poppins", var(--font-body);
+  --font-heading: "Quicksand", var(--font-body);
   --transition: 180ms ease;
 }
 
@@ -54,7 +54,7 @@ body {
     var(--bg);
   color: var(--text);
   font-family: var(--font-body);
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
@@ -202,7 +202,7 @@ select {
 
 .eyebrow {
   color: var(--accent);
-  font-size: 0.74rem;
+  font-size: 0.84rem;
   font-weight: 700;
   letter-spacing: 0.16em;
   line-height: 1.3;
@@ -231,7 +231,7 @@ select {
   border-radius: 999px;
   background: rgba(98, 217, 166, 0.07);
   color: #c9f7e3;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding: 8px 12px;
   width: fit-content;
 }
@@ -311,7 +311,7 @@ select {
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
-  font-size: 0.88rem;
+  font-size: 0.98rem;
   font-weight: 700;
   padding: 11px 13px;
 }
@@ -381,7 +381,7 @@ select {
 .contact-list a,
 .contact-list li > div:last-child > span:not(.contact-label) {
   color: var(--text-soft);
-  font-size: 0.88rem;
+  font-size: 0.98rem;
   overflow-wrap: anywhere;
 }
 
@@ -392,7 +392,7 @@ select {
 .contact-label {
   display: block;
   color: var(--muted);
-  font-size: 0.69rem;
+  font-size: 0.79rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -458,7 +458,7 @@ select {
   background: transparent;
   color: var(--muted);
   cursor: pointer;
-  font-size: 0.86rem;
+  font-size: 0.96rem;
   font-weight: 700;
   padding: 11px 14px;
   transition:
@@ -513,7 +513,7 @@ select {
   margin-top: 8px;
   padding-bottom: 14px;
   font-family: var(--font-heading);
-  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
   line-height: 1.08;
   letter-spacing: -0.04em;
 }
@@ -596,7 +596,7 @@ select {
   display: block;
   color: var(--accent);
   font-family: var(--font-heading);
-  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-size: clamp(1.85rem, 4vw, 2.75rem);
   line-height: 1;
 }
 
@@ -604,7 +604,7 @@ select {
   display: block;
   margin-top: 8px;
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   line-height: 1.5;
 }
 
@@ -625,7 +625,7 @@ select {
 .contact-summary h3 {
   margin-top: 6px;
   font-family: var(--font-heading);
-  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
   line-height: 1.25;
 }
 
@@ -662,19 +662,19 @@ select {
   width: 46px;
   height: 46px;
   border-radius: 14px;
-  font-size: 1.35rem;
+  font-size: 1.45rem;
 }
 
 .capability-card h4 {
   margin-top: 18px;
   font-family: var(--font-heading);
-  font-size: 1.08rem;
+  font-size: 1.25rem;
 }
 
 .capability-card p {
   margin-top: 8px;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 1.05rem;
 }
 
 .timeline-section {
@@ -742,7 +742,7 @@ select {
 
 .timeline-card h4 {
   font-family: var(--font-heading);
-  font-size: 1.08rem;
+  font-size: 1.2rem;
   line-height: 1.35;
 }
 
@@ -758,7 +758,7 @@ select {
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.025);
   color: var(--text-soft);
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   font-weight: 700;
   padding: 6px 10px;
   white-space: nowrap;
@@ -774,7 +774,7 @@ select {
   position: relative;
   padding-left: 18px;
   color: var(--text-soft);
-  font-size: 0.91rem;
+  font-size: 1.15rem;
 }
 
 .timeline-card li::before {
@@ -802,7 +802,7 @@ select {
 .education-result {
   display: inline-flex;
   border-radius: 999px;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 700;
   padding: 5px 9px;
 }
@@ -816,7 +816,7 @@ select {
 .reference-card h4 {
   margin-top: 14px;
   font-family: var(--font-heading);
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   line-height: 1.4;
 }
 
@@ -836,7 +836,7 @@ select {
   display: block;
   margin-top: 8px;
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 0.92rem;
 }
 
 .project-filter {
@@ -859,7 +859,7 @@ select {
   background: rgba(255, 255, 255, 0.02);
   color: var(--muted);
   cursor: pointer;
-  font-size: 0.82rem;
+  font-size: 0.92rem;
   font-weight: 700;
   padding: 8px 13px;
   transition:
@@ -949,7 +949,7 @@ select {
 .project-cover > span {
   width: fit-content;
   font-family: var(--font-heading);
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: 800;
   letter-spacing: -0.08em;
   line-height: 1;
@@ -1000,7 +1000,7 @@ select {
   border: 1px solid var(--border);
   border-radius: 999px;
   color: var(--muted);
-  font-size: 0.68rem;
+  font-size: 0.88rem;
   font-weight: 700;
   padding: 4px 8px;
 }
@@ -1008,14 +1008,14 @@ select {
 .project-body h3 {
   margin-top: 16px;
   font-family: var(--font-heading);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.35;
 }
 
 .project-body p {
   margin-top: 8px;
   color: var(--muted);
-  font-size: 0.88rem;
+  font-size: 0.98rem;
 }
 
 .project-link {
@@ -1026,8 +1026,8 @@ select {
   margin-top: auto;
   padding-top: 18px;
   color: var(--accent);
-  font-size: 0.84rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .project-link:hover {
@@ -1070,7 +1070,7 @@ select {
 
 .skill-group-heading h3 {
   font-family: var(--font-heading);
-  font-size: 1.05rem;
+  font-size: 1.15rem;
 }
 
 .skill-tags {
@@ -1085,7 +1085,7 @@ select {
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.02);
   color: var(--text-soft);
-  font-size: 0.79rem;
+  font-size: 0.99rem;
   font-weight: 600;
   padding: 7px 10px;
 }
@@ -1111,7 +1111,7 @@ select {
   background: var(--accent-soft);
   color: var(--accent);
   font-size: 0.75rem;
-  font-weight: 700;
+  font-weight: 600;
   padding: 5px 9px;
 }
 
@@ -1143,8 +1143,8 @@ select {
 
 .contact-form-card label > span {
   color: var(--text-soft);
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 0.9rem;
+  font-weight: 600;
 }
 
 .contact-form-card input,
@@ -1245,8 +1245,8 @@ select {
 .contact-method small {
   display: block;
   color: var(--muted);
-  font-size: 0.68rem;
-  font-weight: 700;
+  font-size: 0.88rem;
+  font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -1255,13 +1255,13 @@ select {
   display: block;
   margin-top: 2px;
   color: var(--text-soft);
-  font-size: 0.86rem;
+  font-size: 0.96rem;
   overflow-wrap: anywhere;
 }
 
 .site-footer {
   color: var(--muted);
-  font-size: 0.76rem;
+  font-size: 0.86rem;
   padding: 18px 4px 0;
   text-align: center;
 }
@@ -1406,7 +1406,7 @@ select {
 
   .filter-select-label > span {
     color: var(--text-soft);
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 700;
   }
 
@@ -1436,11 +1436,11 @@ select {
   }
 
   .profile-copy h1 {
-    font-size: 1.05rem;
+    font-size: 1.15rem;
   }
 
   .role {
-    font-size: 0.79rem;
+    font-size: 0.89rem;
   }
 
   .availability {
