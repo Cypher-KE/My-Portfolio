@@ -148,7 +148,7 @@ select {
 .site-shell {
   position: relative;
   z-index: 1;
-  width: min(1440px, calc(100% - 32px));
+  width: min(1600px, calc(100% - 32px));
   margin: 32px auto;
   display: grid;
   gap: 24px;
